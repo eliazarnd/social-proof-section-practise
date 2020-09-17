@@ -81,8 +81,9 @@ A massive thank you to our community sponsors!
 
 ## Developers
 
-This is a practise for improve our fronteds skills,
+This is a practise for improving our fronteds skills,
 
+#### Created by
 Eliazar Lopez Robles <br>
 Jennifer Vicente Gomez <br>
 Saul Efren Montoya Castro <br>
