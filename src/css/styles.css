@@ -169,8 +169,128 @@ body {
   padding-right: 5px;
 }
 
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
+  :root {
+    --quantitySeparate: 2.3em;
+    --sizeStar: 15px;
+    --separatedRatedContainer: 0.7em;
+  }
+
   body {
-    background-color: darkred;
+    font-size: 25px;
+  }
+
+  .wrapper {
+    padding: 0 calc(var(--paddingWrapper) * 2);
+  }
+
+  main {
+    position: relative;
+    left: 56%;
+    transform: translateX(-50%);
+  }
+
+  .main-title {
+    font-size: 1.6em;
+    text-align: left;
+  }
+
+  .information {
+    margin-top: 0.5em;
+    font-size: 0.5em;
+    text-align: left;
+  }
+
+  .main-section-container {
+    width: 30%;
+  }
+
+  .first-section-container {
+    display: flex;
+    width: 88%;
+  }
+
+  .rated-cards {
+    margin-top: 0;
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .rated-cards__card {
+    max-width: 500px;
+    height: 20%;
+    position: relative;
+  }
+
+  .rated-cards-container {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .rated-card__rated-information {
+    font-size: 0.5em;
+    margin-left: 2em;
+  }
+  .rated-cards__stars {
+    width: var(--sizeStar);
+    height: var(--sizeStar);
+    margin-left: 0;
+  }
+
+  .rated-cards__card:nth-child(1) {
+    margin-left: 0;
+    left: calc(var(--quantitySeparate) * -3);
+  }
+
+  .rated-cards__card:nth-child(2) {
+    left: calc(var(--quantitySeparate) * -2);
+    top: calc(var(--separatedRatedContainer) * -1);
+  }
+
+  .rated-cards__card:nth-child(3) {
+    left: calc(var(--quantitySeparate) * -1);
+    top: calc((var(--separatedRatedContainer) * 2) * -1);
+  }
+
+  .customer-cards {
+    margin-top: -1.8em;
+    flex-direction: row;
+    height: 230px;
+    position: relative;
+    left: -1em;
+  }
+
+  .customer-cards__card {
+    max-width: 340px;
+    height: 100%;
+    margin-left: 1em;
+  }
+
+  .customer-cards__review {
+    font-size: 12px;
+    margin-top: -6em;
+  }
+
+  .customer-cards__profile-name {
+    font-size: 0.5em;
+  }
+
+  .customer-cards__profile-info-container {
+    margin-left: 0.9em;
+  }
+
+  .customer-cards__card {
+    padding: 1.4em;
+    position: relative;
+  }
+
+  .customer-cards__card:nth-child(2) {
+    top: var(--separatedRatedContainer);
+  }
+
+  .customer-cards__card:nth-child(3) {
+    top: calc(var(--separatedRatedContainer) * 2);
   }
 }
