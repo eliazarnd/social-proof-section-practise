@@ -83,7 +83,7 @@ A massive thank you to our community sponsors!
 
 This is a practise for improve our fronteds skills,
 
-Eliazar Lopez Robles
-Jennifer Vicente Gomez
-Saul Efren Montoya Castro
+Eliazar Lopez Robles <br>
+Jennifer Vicente Gomez <br>
+Saul Efren Montoya Castro <br>
 Silvia Elsa Tolosa Vega
